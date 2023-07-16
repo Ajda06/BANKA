@@ -81,7 +81,7 @@ namespace BANKA
                 Console.WriteLine("Main Menu");
                 Console.WriteLine($"Welcome, {currentClient.FirstName}.");
                 Console.WriteLine($"Your balance is {currentClient.Amount}$.");
-                Console.WriteLine("You can choose between these options:");
+                Consple.WriteLine("You can choose between these options:");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine("1. Deposit money");
                 Console.WriteLine("2. Withdraw money");

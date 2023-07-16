@@ -78,7 +78,7 @@ namespace BANKA
             while (!logout)
             {
                 Console.WriteLine();
-                Console.WriteLine($"Welcome {currentClient.Firstname}, your balance is {currentClient.Amount}");
+                Console.WriteLine($"Welcome {currentClient.FirstName}, your balance is {currentClient.Amount}");
                 Console.WriteLine("Main Menu");
                 Console.WriteLine("-----------------------------");
                 Console.WriteLine("1. Deposit money");
